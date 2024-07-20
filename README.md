@@ -32,7 +32,7 @@ It was used [discord.js](https://discord.js.org/) It was used [discord.js guide]
 
 - Rename your archive [**`.env.local`**](.env.local) to ==> **`.env`**;
 - Configure the environment variables that are currently present in your setup. **`.env`**:
-```
+```env
  BOT_GBYTE_TOKEN=YourTokenBot
  BOT_GBYTE_CLIENT_ID=YourClientIDApplication
  BOT_GBYTE_GUILD_ID=YourGuildIDTheRegisterSlashCommandsInLocal
@@ -67,7 +67,7 @@ It was used [discord.js](https://discord.js.org/) It was used [discord.js guide]
 ```
 > - Access your [**`nodemon.json`**](nodemon.json) and adjust the configuration as needed. ⬇️
 
-```
+```json
 {
     "watch": ["src"],
     "ext": "ts",
@@ -83,7 +83,7 @@ pnpm install
 ```
 
 **5 - 🏁 Running Bot in development mode**: (Default) 
-```
+```bash
 npm run dev
 yarn dev
 pnpm run dev
@@ -92,7 +92,7 @@ pnpm run dev
 
 **6 - ✅ Running the bot with the compiled code in the [`dist`](dist) folder**:
 > - ##### First, you need to compile the current code from TypeScript to JavaScript. This process will generate a folder called "dist" at the root of your project. This folder will contain the entire structure of your current TypeScript code, but in JavaScript instead.
-```
+```bash
 npm run build
 yarn build
 pnpm run build
@@ -100,7 +100,7 @@ pnpm run build
 ```
 > - ##### Finally, to run the compiled code of your bot in JavaScript, you just need to execute the following command in your terminal:
 
-```
+```bash
 npm run prod
 yarn prod
 pnpm run prod
