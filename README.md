@@ -38,7 +38,15 @@ It was used [discord.js](https://discord.js.org/) It was used [discord.js guide]
  BOT_GBYTE_GUILD_ID=YourGuildIDTheRegisterSlashCommandsInLocal
 ```
 
-**3 - ⚙️ TypeScript & Nodemon configurations in the project:**  (Optional)
+**3 - ⬇️ Installing all depedencies**:
+
+```bash
+npm install
+yarn install
+pnpm install
+```
+
+**4 - ⚙️ TypeScript & Nodemon configurations in the project:**  (Optional)
 > - Access your [**`tsconfig.json`**](tsconfig.json) and adjust the configuration as needed. ⬇️
 ```json
 {
@@ -75,13 +83,6 @@ It was used [discord.js](https://discord.js.org/) It was used [discord.js guide]
     "exec": "node --loader ts-node/esm --experimental-specifier-resolution=node src/index.ts"
 }
 ```
-**4 - ⬇️ Installing all depedencies**:
-```bash
-npm install
-yarn install
-pnpm install
-```
-
 **5 - 🏁 Running Bot in development mode**: (Default) 
 ```bash
 npm run dev
